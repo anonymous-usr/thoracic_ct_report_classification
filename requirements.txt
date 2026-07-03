@@ -1,0 +1,17 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Deep learning
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=1.1.0
+datasets>=2.16.0
+
+# Visualization and utilities
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# LLM classification (optional, required for llm/ module)
+ollama>=0.2.0
