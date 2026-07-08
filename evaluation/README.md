@@ -33,7 +33,7 @@ python metrics.py <prediction_csv>
 ### Example
 
 ```bash
-python metrics.py ../results/external_test_set_llama3.1-8b_cot.csv
+python metrics.py ../results/<prediction_csv>
 ```
 
 ## Comparing Models

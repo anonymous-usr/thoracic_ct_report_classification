@@ -55,14 +55,14 @@ python classify_reports.py -i <input_csv> -m <model> -s <strategy>
 |----------|-------------|
 | `0-shot` | Direct classification without examples |
 | `system` | Uses a system prompt defining the classifier role |
-| `cot` | Chain-of-thought with silent reasoning steps |
+| `rule-guided` | Rule-guided with silent reasoning steps |
 | `3-shot` | Three examples (one per class) included in prompt |
 | `2-step` | Two-stage: first check impressions, then findings |
 
 ### Example
 
 ```bash
-python classify_reports.py -i ../data/external_test_set.csv -m llama3.1:8b -s cot
+python classify_reports.py -i ../data/external_test_set.csv -m llama3.1:8b -s rule-guided
 ```
 
 ## Input Format

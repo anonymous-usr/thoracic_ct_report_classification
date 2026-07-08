@@ -8,7 +8,7 @@ This directory contains predictions on the external CT-RATE test set from the mo
 |------|-------|----------|
 | `external_test_set_BioClinical-ModernBERT-base.csv` | BioClinical-ModernBERT-base | Fine-tuned |
 | `external_test_set_llama3.1-8b_2step.csv` | Llama 3.1 8B | 2-step prompting |
-| `external_test_set_gpt-oss-120b_cot.csv` | GPT-OSS 120B | Chain-of-thought |
+| `external_test_set_gpt-oss-120b_ruleguided.csv` | GPT-OSS 120B | Rule-guided |
 
 ## File Format
 

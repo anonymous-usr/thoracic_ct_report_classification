@@ -46,7 +46,7 @@ def parse_args():
     )
     parser.add_argument(
         "-s", "--strategy",
-        choices=["0-shot", "system", "cot", "3-shot", "2-step"],
+        choices=["0-shot", "system", "rule-guided", "3-shot", "2-step"],
         required=True,
         help="Prompting strategy",
     )
@@ -197,7 +197,7 @@ def classify_single(
         messages = [{"role": "user", "content": filled_prompt}]
         return run_llm(messages, model, temperature)
 
-    else:  # 0-shot, cot
+    else:  # 0-shot, rule-guided
         filled_prompt = prompt_template.format(result=findings, conclusion=impressions)
         messages = [{"role": "user", "content": filled_prompt}]
         return run_llm(messages, model, temperature)

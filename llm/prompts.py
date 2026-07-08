@@ -68,7 +68,7 @@ Output format (strict):
 - No explanation, no extra characters, no spaces, no line breaks.
 """
 
-COT = """
+RULE_GUIDED = """
 Classify the given radiology report of a CT scan according to whether it describes a normal (0), potentially abnormal (1), or abnormal (2) lung.
 
 The lung consists exclusively of:
@@ -224,7 +224,7 @@ def get_prompt(strategy: str) -> str | tuple[str, str]:
     prompts = {
         "0-shot": ZERO_SHOT,
         "system": ZERO_SHOT,
-        "cot": COT,
+        "rule-guided": RULE_GUIDED,
         "3-shot": FEW_SHOT,
         "2-step": (TWO_STEP_CONCLUSION, TWO_STEP_FINDINGS),
     }
