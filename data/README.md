@@ -21,7 +21,7 @@ Labels were manually assigned based on the presence and location of current lung
 |-------|------|------------|
 | 0 | Normal | Neither findings nor impressions describe a current lung-related abnormality |
 | 1 | Findings-level abnormal | A current lung abnormality is described in findings but not in impressions |
-| 2 | Impressions-level abnormal | A current lung abnormality is described in the impressions |
+| 2 | Impression-level abnormal | A current lung abnormality is described in the impressions |
 
 **Lung structures include:** parenchyma, pleura, bronchi, and pulmonary vessels.
 
