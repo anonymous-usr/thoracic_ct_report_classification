@@ -1,6 +1,6 @@
 # Thoracic CT Report Classification
 
-This repository contains the implementation of the paper *Privacy-Preserving Classification of German Thoracic CT Reports Under Resource Constraints: Large Language Models vs Fine-Tuned Encoders for Lung Finding Actionability*.
+This repository contains the implementation of the paper *Privacy-Preserving Classification of German Thoracic CT Reports Under Resource Constraints: Large Language Models vs Fine-Tuned Encoders for Report-Section-Based Lung Abnormality Assessment*.
 
 ## Repository Structure
 

@@ -326,7 +326,7 @@ def main():
     print(classification_report(
         pred_out.label_ids,
         preds,
-        target_names=["0 (normal)", "1 (non-actionable)", "2 (actionable)"],
+        target_names=["0 (normal)", "1 (findings-level)", "2 (impressions-level)"],
         digits=4,
     ))
 

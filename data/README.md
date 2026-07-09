@@ -1,6 +1,6 @@
 # Data
 
-This directory contains the external test set consisting of 1,000 English radiology reports from the [CT-RATE dataset](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) with manual labels for lung finding actionability.
+This directory contains the external test set consisting of 1,000 English radiology reports from the [CT-RATE dataset](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) manually labeled according to our reference standard.
 
 ## File Format
 
@@ -20,8 +20,8 @@ Labels were manually assigned based on the presence and location of current lung
 | Label | Name | Definition |
 |-------|------|------------|
 | 0 | Normal | Neither findings nor impressions describe a current lung-related abnormality |
-| 1 | Non-actionable abnormal | A current lung abnormality is described in findings but not in impressions |
-| 2 | Actionable abnormal | A current lung abnormality is described in the impressions |
+| 1 | Findings-level abnormal | A current lung abnormality is described in findings but not in impressions |
+| 2 | Impressions-level abnormal | A current lung abnormality is described in the impressions |
 
 **Lung structures include:** parenchyma, pleura, bronchi, and pulmonary vessels.
 

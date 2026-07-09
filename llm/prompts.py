@@ -3,8 +3,8 @@ Prompts for LLM-based classification of thoracic CT reports.
 
 All prompts classify reports into three categories:
 - 0: Normal (no current lung-related abnormality)
-- 1: Non-actionable abnormal (abnormality in findings only)
-- 2: Actionable abnormal (abnormality in impressions)
+- 1: Findings-level abnormal (abnormality in findings only)
+- 2: Impressions-level abnormal (abnormality in impressions)
 """
 
 ZERO_SHOT = """

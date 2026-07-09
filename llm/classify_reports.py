@@ -4,8 +4,8 @@ LLM-based classification of thoracic CT reports.
 
 Classifies radiology reports into three categories based on lung findings:
 - 0: Normal (no current lung-related abnormality)
-- 1: Non-actionable abnormal (abnormality in findings only)
-- 2: Actionable abnormal (abnormality in impressions)
+- 1: Findings-level abnormal (abnormality in findings only)
+- 2: Impressions-level abnormal (abnormality in impressions)
 
 Requires Ollama to be installed and running locally.
 """

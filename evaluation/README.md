@@ -60,8 +60,8 @@ python compare.py <model_a_csv> <model_b_csv>
 - `macro_f1` - Macro-averaged F1 score
 - `accuracy` - Overall accuracy
 - `f1_class_0` - F1 for class 0 (normal)
-- `f1_class_1` - F1 for class 1 (non-actionable)
-- `f1_class_2` - F1 for class 2 (actionable)
+- `f1_class_1` - F1 for class 1 (findings-level)
+- `f1_class_2` - F1 for class 2 (impressions-level)
 
 ### Example
 
